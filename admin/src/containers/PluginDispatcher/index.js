@@ -44,7 +44,7 @@ export function PluginDispatcher(props) {
 
   return (
     <div>
-      <Helmet title={`Strapi - ${name}`} />
+      <Helmet title={`Heat - ${name}`} />
       <ErrorBoundary>
         <PluginEntryComponent {...props} {...blockerComponentProps} />
       </ErrorBoundary>
